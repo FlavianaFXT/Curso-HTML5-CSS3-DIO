@@ -1,0 +1,85 @@
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: azure;
+    margin-top: 50px;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+}
+
+body {
+    background: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo{
+    border:1px solid white;
+    border-radius:400px;
+    max-width: 150px;
+    margin-left: 50px;
+}
+
+.post_title {
+    font-size: 25px;
+    text-decoration: underline;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.post{
+    background: white;
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+}
+
+
+.dados_prof_pessoais{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados_prof{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.dados_pessoais{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.link{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.contact-title{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.contacts-list{
+    color:white;
+    list-style-type: none;
+    text-align: center;
+}
